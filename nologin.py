@@ -129,7 +129,7 @@ def action():
 	elif peak =="1":              
 		os.system("clear")
 		print logo2
-		print "                  \033[1;91mArea Codes "
+		print "                   \033[1;92mArea Codes "
 		try:
 			c = raw_input("\033[1;91mChoose Area Code  : ")
 			k="03"
