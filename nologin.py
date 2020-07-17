@@ -229,6 +229,7 @@ def action():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
+	print ' \033[1;93m  '
 	print '[✅] Process Has Been Completed ...'
 	print '[✅] Total Online/Offline : '+str(len(oks))+'/'+str(len(cpb))
 	
